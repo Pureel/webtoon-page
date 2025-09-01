@@ -1,7 +1,7 @@
 body{
   font-family: Tahoma;
   font-size: 19px;
-  background-image: url(https://m.media-amazon.com/images/I/91xYwHIr9IL._SY522_.jpg);
+  background-image: url(https://i.ibb.co/SXXWxPYq/Untitled178-20250109200522.png);
   padding: 17px 0;
 }
 h1{
@@ -87,4 +87,5 @@ input[type= "checkbox"] {
 }
 #submit:hover{
   color: white;
+
 }
