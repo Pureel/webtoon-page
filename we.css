@@ -1,0 +1,90 @@
+body{
+  font-family: Tahoma;
+  font-size: 19px;
+  background-image: url(https://m.media-amazon.com/images/I/91xYwHIr9IL._SY522_.jpg);
+  padding: 17px 0;
+}
+h1{
+  text-align: center;
+  font-family: Tahoma, Verdana;
+  width:100%;
+  font-size: 30px;
+}
+.y{
+  margin: -0px;
+}
+#sma{
+  font-size: 15px; 
+}
+#p, #rt, #yu {
+  padding-top: 16px;
+}
+.iu{
+  margin-top: 10px;
+}
+#description{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 20px; 
+  font-weight: bold;
+}
+form{
+  width: 75vw;
+  margin: auto;
+  min-width: 400px;
+  max-width: 600px;
+  background-color: #FFC76D;
+  color: #FF0072;
+  border-radius: 13px;
+  padding: 11px;
+}
+fieldset{
+  border-width: 0px;
+}
+label{
+  display: block;
+}
+#name, #email, #number{
+  display: block;
+  width: 100%;
+  height: 2rem;
+}
+textarea{
+  min-width: 100%;
+  min-height: 2rem;
+  margin-top: -8px;
+}
+#dropdown{
+   width: 100%;
+   height: 2rem;
+   font-size: 15px;
+   color: hsl(0, 0%, 30%)
+}
+option {
+  font-size: 17px;
+}
+input::placeholder {
+   font-size: 15px;
+}
+input[type= "checkbox"] {
+   margin-top: 10px;
+}
+.f{
+  margin: 5px auto;
+}
+.x, i{
+  vertical-align: middle;
+}
+#submit{
+   display: block;
+   height: 2rem;
+   width: 60%;
+   margin: auto;
+   font-size: 15px;
+   background-color: #FFD593;
+   border-color: white; 
+   border-radius: 6px;
+}
+#submit:hover{
+  color: white;
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="we.css"/>
+    <meta charset="utf-8"/>
+    <meta name=></meta>
+    <title>IFE'S FORM PROJECT </title>
+  </head>
+  <body>
+    <h1 id="title"> Webtoon Reader Preferences Survey </h1>
+    <p id="description">Your ideal webtoon-let's build it together...</p>
+    <form id="survey-form" action="https://formsubmit.co/foladimeji538@gmail.com" method="POST">
+      <fieldset>
+        <label id="name-label">Name <input type="text" id="name" required placeholder="Enter your name" class="f"></label>
+        <label id="email-label">Email <input type="email" id="email" required placeholder="Enter your email(for exclusive comic previews)" class="f"></label>
+        <label id="number-label">Age <input type="number" max="130" min="13" id="number" reqiured placeholder="Enter your age" class="f"></label>
+      </fieldset>
+       <fieldset>
+       <label for="dropdown"> What's your current interaction with webtoons?
+       <select id="dropdown" name="Current interaction">
+         <option value="dwaods">select the option that best describes it</option>
+         <option value="R">I enjoy reading them</option>
+         <option value="W">I write/create them</option>
+         <option value="r+w"> I both read and create them</option>
+       </select>
+       </label>
+       </fieldset>
+      <fieldset id="p">
+        <p class="y">What are your favorite webtoon genres? (choose three)</p>
+          <label class="x"><input name="genre" type="checkbox" value="Romance">Romance     </label>
+          <label class="x"><input name="genre" type="checkbox" value="Fantasy">Fantasy     </label>
+          <label class="x"><input name="genre" type="checkbox" value="Historical">Historical     </label>
+          <label class="x"><input name="genre" type="checkbox" value="Comedy">Comedy     </label>
+          <label class="x"><input name="genre" type="checkbox" value="Slice of life">Slice of life     </label>
+          <label class="x"><input name="genre" type="checkbox" value="Sci-fi">Sci-fi     </label>
+         <label class="x"><input name="genre" type="checkbox" value="Drama">Drama     </label> 
+        </fieldset>
+        <fieldset id="rt">
+         <p class="y">What features do you most love to see/appreciate in webtoons? </p><p class="y" id="sma">(check all that apply)</p>
+         <label class="i"><input name="features" type="checkbox" value=" Strong & meaningful storylines">Strong & meaningful storylines   </label>
+         <label class="i"><input name="features" type="checkbox" value="Fast-paced storylines">Fast-paced storylines</label>
+         <label class="i"><input name="features" type="checkbox" value="Slow-paced storylines">Slow-paced storylines</label>
+         <label class="i"><input name="features" type="checkbox" value="Adequately-paced storylines">Adequately-paced storylines</label>
+         <label class="i"><input name="features" type="checkbox" value="Refined regal artstyle">Refined regal artstyle</label>
+         <label class="i"><input name="features" type="checkbox" value="Sketchy expressive artstyle">Sketchy expressive artstyle</label>
+         <label class="i"><input name="features" type="checkbox" value="Attractive appearance of characters">Attractive appearance of characters</label>
+         <label class="i"><input name="features" type="checkbox" value="Strong relationship between characters">Strong relationship between characters</label>
+         <label class="i"><input name="features" type="checkbox" value="Cliffhangers">Cliffhangers</label>
+         <label class="i"><input name="features" type="checkbox" value="Originality">Originality</label>
+      </fieldset>
+      <fieldset id="yu">
+        <p class="y">How often do you like to see webtoon episode updates?</p>
+        <label><input type="radio" name="webtoon updates" value="Weekly"/>Weekly</label>
+        <label><input type="radio" name="webtoon updates" value="Bi-weekly"/>Fortnightly</label>
+        <label><input type="radio" name="webtoon updates" value="Monthly"/>Monthly</label>
+      </fieldset>
+      <fieldset>
+      <p class="iu">Any comments or suggestions on how you like your ideal webtoon?</p>
+      <textarea placeholder="Enter your comment here..."></textarea>
+      </fieldset>
+      <input type="submit" id="submit"/>
+    </form> 
+  </body>
+</html>
